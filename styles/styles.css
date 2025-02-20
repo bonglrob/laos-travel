@@ -4,6 +4,7 @@
     --dark-color: #1F2937; /* for hero, footer, h2 */
     --light-color: #F9FAF8; /* logo, h1 text */
     --lighter-color: #E5E7EB; /* hero p, nav__link text */
+    --blue-color: #3882F6; /* buttons, call to action bg color */
 
     --text-size-80: 0.694rem;
     --text-size-90: 0.833rem; /* small, button, navlink, footer */
@@ -81,4 +82,22 @@ h1 {
 
 .hero-text {
     color: var(--lighter-color);
+}
+
+.button {
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    width: 120px;
+    padding: 12px 24px 12px 24px;
+    background: var(--blue-color);
+    color: var(--light-color);
+    font-size: var(--text-size-90);
+}
+
+.button--color-inverse {
+    border: 2px solid var(--light-color);
 }
