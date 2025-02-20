@@ -51,9 +51,12 @@ nav a {
     color: var(--lighter-color);
 }
 
+section {
+    padding: 64px 0 64px 0;
+}
+
 .hero-banner {
     background: var(--dark-color);
-    padding: 64px 0 64px 0;
 }
 
 .hero-banner .container {
@@ -100,4 +103,35 @@ h1 {
 
 .button--color-inverse {
     border: 2px solid var(--light-color);
+}
+
+.itineraries {
+    margin: 0 15% 0 15%; /* shared margin among all sections */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itineraries h2 {
+    font-size: var(--text-size-600);
+}
+
+.itineraries-container {
+    display: flex;
+    gap: 32px;
+}
+
+.itinerary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itineraries img {
+    width: 150px;
+    height: 150px;
+}
+
+.itinerary p {
+    width: 150px;
 }
