@@ -59,11 +59,14 @@ section {
     background: var(--dark-color);
 }
 
+.container {
+    margin: 0 12% 0 12%;
+}
+
 .hero-banner .container {
     display: flex;
     gap: 48px;
     align-items: center;
-    margin: 0 13.5% 0 13.5%; /* shared margin among all sections */
 }
 
 .hero-banner .content-container {
@@ -106,7 +109,7 @@ h1 {
 }
 
 .itineraries {
-    margin: 0 15% 0 15%; /* shared margin among all sections */
+    margin: 0 15% 0 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,4 +141,23 @@ h1 {
 .itinerary p {
     width: 200px;
     text-align: center;
+}
+
+.testimony {
+    background: var(--lighter-color);
+}
+
+.testimony .container {
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    color: var(--dark-color);
+    font-size: var(--text-size-600);
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
 }
