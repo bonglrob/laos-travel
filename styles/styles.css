@@ -68,7 +68,6 @@ nav a {
 }
 
 .hero-banner img {
-    border: 1px solid white;
     height: 250px;
     width: 450px;
     flex: 1 0 auto;
