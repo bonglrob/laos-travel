@@ -49,3 +49,37 @@ nav a {
     font-size: var(--text-size-90);
     color: var(--lighter-color);
 }
+
+.hero-banner {
+    background: var(--dark-color);
+    padding: 64px 0 64px 0;
+}
+
+.hero-banner .container {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    margin: 0 13.5% 0 13.5%; /* shared margin among all sections */
+}
+
+.hero-banner .content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-banner img {
+    border: 1px solid white;
+    height: 250px;
+    width: 450px;
+    flex: 1 0 auto;
+}
+
+h1 {
+    font-size: var(--text-size-700);
+    color: var(--light-color);
+    margin: 0;
+}
+
+.hero-text {
+    color: var(--lighter-color);
+}
